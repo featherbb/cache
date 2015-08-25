@@ -1,0 +1,17 @@
+{
+	"name": "featherbb/cache",
+	"type": "library",
+	"description": "A lightweight php caching class, massive rewrite of cosenary's filesystem cache class. Used in FeatherBB",
+	"keywords": ["cache", "simple", "filesystem", "json", "featherbb"],
+	"homepage": "https://github.com/featherbb/cache",
+	"license": "GNU Genral Public Licence",
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"."
+		]
+	}
+}
